@@ -43,6 +43,10 @@ div.row{
     border-bottom: 2px solid #F0F0F0;
 }
 
+div.noBorder{
+    border: 0;
+}
+
 div.content{
     /*background-color: yellow;*/
     padding: 0;
