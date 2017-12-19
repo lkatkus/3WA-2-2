@@ -1,6 +1,7 @@
 body{
     background-color: #696969;
     font-family: 'Roboto', sans-serif;
+    padding: 50px;
 }
 
 h1{
@@ -32,7 +33,7 @@ div.row{
     /*background-color: red;*/
     margin-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 2px solid #d3d3d3;
+    border-bottom: 2px solid #F0F0F0;
 }
 
 div.content{
@@ -100,4 +101,14 @@ i{
 i:hover{
     color:red;
     transition: color 0.5s;
+}
+nav a{
+    padding: -top: 20px;
+    margin-bottom: 0;
+    background-color: #d3d3d3;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bold;
 }

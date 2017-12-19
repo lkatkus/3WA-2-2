@@ -7,21 +7,23 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
     </head>
     <body>
         <div class="container">
             <header>
                 <h1>&nbsp;Best Portfolio Website Ever&nbsp;</h1>
-                    <!-- <nav>
-                        <a href="#">About</a>
-                        <a href="#">Stuff</a>
-                        <a href="#">Contact</a>
-                    </nav> -->
+                    <nav>
+                        <a id="aboutBtn" href="#">About Me</a>
+                        <a id="otherBtn" href="#">Other Stuff About Me</a>
+                        <a id="burgersBtn" href="#">About Burgers</a>
+                        <a id="contactBtn" href="#">Contact</a>
+                    </nav>
             </header>
 
-            <div class="row">
-                <h2>&nbsp;About me&nbsp;</h2>
+            <div id="about" class="row">
+                <h2>&nbsp;About Me&nbsp;</h2>
                 <div class="content">
                     <div class="item">
                         <img src="img/about.jpg" alt="Dog looking into the future">
@@ -35,8 +37,8 @@
                 </div>
             </div>
 
-            <div class="row">
-                <h2>&nbsp;Other stuff about me&nbsp;</h2>
+            <div id="other" class="row">
+                <h2>&nbsp;Other Stuff About Me&nbsp;</h2>
                 <div class="content">
                     <div class="item">
                         <p class="textLeft">
@@ -49,7 +51,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div id="burgers" class="row">
                 <h2>&nbsp;About Burgers&nbsp;</h2>
                 <div class="content">
                     <div class="item">
@@ -64,7 +66,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div id="contact" class="row">
                 <h2>&nbsp;Contact&nbsp;</h2>
                 <div class="content">
                     <div class="item">
@@ -89,5 +91,10 @@
             </div>
 
         </div>
+
+        <script type="text/javascript" src="js/script.js">
+
+        </script>
+
     </body>
 </html>
