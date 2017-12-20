@@ -1,3 +1,6 @@
+/*font import from Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
 body{
     background: repeating-linear-gradient(
       45deg,
